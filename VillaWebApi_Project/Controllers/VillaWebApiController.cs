@@ -14,6 +14,7 @@ namespace VillaWebApi_Project.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public ActionResult<IEnumerable<VillaDto>> GetVillas()
         {
+           
             return Ok(VillaStore.VillaData);
         }
 
